@@ -19,7 +19,7 @@ const client = new Client({
 });
 
 //Initializing GenAI model
-const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro-002" });
 
 //Function to generate response from AI model and reply to user
 async function generate(prompt, message) {
